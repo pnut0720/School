@@ -1,0 +1,13 @@
+Ryan Peters
+total 32
+drwx------ 3 rpeters2 rpeters2 4096 Sep 19 16:09 ./
+drwxr-xr-x 9 rpeters2 rpeters2 4096 Sep 19 15:54 ../
+drwx------ 2 rpeters2 rpeters2 4096 Sep 19 16:06 dir_3/
+-r-xr-xr-x 1 rpeters2 rpeters2   36 Sep 19 15:54 file_1*
+-r-------- 1 rpeters2 rpeters2   18 Sep 19 15:54 file_2
+-------rwx 1 rpeters2 rpeters2   29 Sep 19 16:06 jamesbond*
+-rwxr-x--- 1 rpeters2 rpeters2   29 Sep 19 16:08 myfriend*
+-rw-rw-r-- 1 rpeters2 rpeters2   12 Sep 19 16:09 session04b_hw
+rpeters2
+Fri Sep 19 16:06:06 PDT 2014
+The permissions of jamesbond is 007

@@ -1,0 +1,6 @@
+total 16
+drwxrwxr-x  2 rpeters2 rpeters2 4096 Sep 22 14:47 ./
+drwxr-xr-x 11 rpeters2 rpeters2 4096 Sep 22 14:46 ../
+-rw-------  1 rpeters2 rpeters2  997 Sep 22 14:46 file1
+-r--------  1 rpeters2 rpeters2  997 Sep 22 14:37 file2
+-rw-rw-r--  1 rpeters2 rpeters2    0 Sep 22 14:47 session05_hw

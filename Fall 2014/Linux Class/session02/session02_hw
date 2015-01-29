@@ -1,0 +1,37 @@
+Script started on Wed 03 Sep 2014 07:36:52 PM PDT
+]0;rpeters2@cs: ~rpeters2@cs:~$ whoami
+rpeters2
+]0;rpeters2@cs: ~rpeters2@cs:~$ date "+%A"
+Wednesday
+]0;rpeters2@cs: ~rpeters2@cs:~$ date "+%D"
+09/03/14
+]0;rpeters2@cs: ~rpeters2@cs:~$ date "+%r"
+07:37:37 PM
+]0;rpeters2@cs: ~rpeters2@cs:~$ who
+lvelie   pts/0        2014-09-03 16:02 (108-253-151-99.lightspeed.frokca.sbcglobal.net)
+rpeters2 pts/2        2014-09-03 19:33 (73.48.183.152)
+tmcgowen pts/5        2014-09-03 17:34 (171.129-78-65.ftth.swbr.surewest.net)
+chickland pts/6        2014-09-03 17:49 (99-21-144-17.lightspeed.frokca.sbcglobal.net)
+jburgess pts/1        2014-09-03 19:33 (204-195-107-122:S.0)
+jburgess pts/3        2014-09-03 19:34 (204-195-107-122:S.1)
+]0;rpeters2@cs: ~rpeters2@cs:~$ more homework2
+You are working on the homework
+for session2. Be sure to ask the
+instructor questions if you do not
+understand, any part of the assignment.
+]0;rpeters2@cs: ~rpeters2@cs:~$ grep rpeters2 /etc/passwd
+[01;31m[Krpeters2[m[K:x:2909:2917:Ryan Peters:/home/student/[01;31m[Krpeters2[m[K:/bin/bash
+]0;rpeters2@cs: ~rpeters2@cs:~$ cp homework [K2 abc123
+]0;rpeters2@cs: ~rpeters2@cs:~$ ls -l
+total 32
+-rw-rw-r-- 1 rpeters2 rpeters2   140 Sep  3 19:38 abc123
+drwxrwxr-x 2 rpeters2 rpeters2  4096 Aug 29 17:38 [0m[01;34mc[0m
+drwxrwxr-x 2 rpeters2 rpeters2  4096 Sep  3 18:06 [01;34mc_class[0m
+-rw-rw-r-- 1 rpeters2 rpeters2   140 Sep  3 19:36 homework2
+drwxr-xr-x 2 rpeters2 rpeters2  4096 Aug 26 17:12 [01;34mpublic_html[0m
+-rw------- 1 rpeters2 rpeters2 11667 Sep  3 18:44 sent
+-rw-rw-r-- 1 rpeters2 rpeters2     0 Sep  3 19:36 session02_hw
+]0;rpeters2@cs: ~rpeters2@cs:~$ exit
+exit
+
+Script done on Wed 03 Sep 2014 07:38:36 PM PDT

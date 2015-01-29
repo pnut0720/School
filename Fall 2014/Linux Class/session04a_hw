@@ -1,0 +1,32 @@
+Ryan Peters
+Fri Sep 19 15:39:21 PDT 2014
+/home/student/rpeters2
+total 104
+drwxr-xr-x   8 rpeters2 rpeters2  4096 Sep 19 15:38 ./
+drwxr-xr-x 684 root     root     28672 Sep  4 12:07 ../
+-rw-------   1 rpeters2 rpeters2  7193 Sep 19 12:40 .bash_history
+-rw-r--r--   1 rpeters2 rpeters2   220 Apr  3  2012 .bash_logout
+-rw-r--r--   1 rpeters2 rpeters2  3486 Apr  3  2012 .bashrc
+drwx------   2 rpeters2 rpeters2  4096 Aug 25 11:09 .cache/
+drwxrwxr-x   2 rpeters2 rpeters2  4096 Sep 19 12:40 c_class/
+drwxrwxr-x   3 rpeters2 rpeters2  4096 Sep 19 15:36 directory_1/
+drwxrwxr-x   3 rpeters2 rpeters2  4096 Sep 19 15:37 directory_2/
+drwxrwxr-x   4 rpeters2 rpeters2  4096 Sep 11 20:51 linux_class/
+-rw-r--r--   1 rpeters2 rpeters2   790 Aug  8  2012 .profile
+drwxr-xr-x   2 rpeters2 rpeters2  4096 Sep 18 19:18 public_html/
+-rw-------   1 rpeters2 rpeters2 17848 Sep  9 17:15 sent
+-rw-rw-r--   1 rpeters2 rpeters2    64 Sep 19 15:39 session04a_hw
+total 16
+drwxrwxr-x 3 rpeters2 rpeters2 4096 Sep 19 15:36 ./
+drwxr-xr-x 8 rpeters2 rpeters2 4096 Sep 19 15:38 ../
+drwxrwxr-x 2 rpeters2 rpeters2 4096 Sep 19 15:36 directory_3/
+-rw-rw-r-- 1 rpeters2 rpeters2   29 Sep 19 15:35 file_1
+total 12
+drwxrwxr-x 3 rpeters2 rpeters2 4096 Sep 19 15:37 ./
+drwxr-xr-x 8 rpeters2 rpeters2 4096 Sep 19 15:38 ../
+drwxrwxr-x 2 rpeters2 rpeters2 4096 Sep 19 15:37 directory_4/
+total 16
+drwxrwxr-x 2 rpeters2 rpeters2 4096 Sep 19 15:37 ./
+drwxrwxr-x 3 rpeters2 rpeters2 4096 Sep 19 15:37 ../
+-rw-rw-r-- 1 rpeters2 rpeters2   29 Sep 19 15:37 file_2
+-rw-rw-r-- 1 rpeters2 rpeters2   29 Sep 19 15:37 file_3

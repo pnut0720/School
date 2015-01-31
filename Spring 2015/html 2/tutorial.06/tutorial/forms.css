@@ -1,0 +1,60 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 6
+   Tutorial Case
+
+   Survey Forms Style Sheet
+   Author: Ryan Peters
+   Date:   Jan 31 2015
+
+   Filename:         forms.css
+   Supporting Files: customer.png, go.png, stop.png
+
+*/
+
+/* Field set styles */
+
+fieldset {
+	background-color: rgb(255, 246, 205);
+	border: 1px solid rgb(233, 69, 0);
+	float: left;
+	margin: 10px 0px 10px 2.5%;
+	width: 46%;
+}
+
+legend {
+	background-color: rgb(233, 69, 0);
+	color: white;
+	padding: 3px 0px;
+	text-indent: 5px;
+	width: 100%;
+}
+
+/* Label Styles */
+
+label {
+	clear: left;
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 4% 7px 5px;
+	width: 40%;
+}
+
+/* Input Control Styles */
+
+input {
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 0px;
+	width: 50%;
+}
+
+input#state {
+	width: 50px;
+}
+
+
+	
+

@@ -7,9 +7,8 @@ using namespace std;
 int main()
 {
     vector<double> myValues;
-    float myNums;
-    float sum;
-    float average;
+    double myNums, sum, mean, sq_sum, stdDev;
+    
     
     cout << "Please enter values (enter end at end) ==> ";
     
@@ -22,13 +21,13 @@ int main()
     
     cout << "\nSum of Numbers Entered is: " << sum << "\n";
     
-    average = sum / myValues.size();
+    mean = sum / myValues.size();
     
-    cout << "\nAverage of values entered is: " << average << "\n";
+    cout << "\nAverage of values entered is: " << mean << "\n";
     
-    for(int i = 0; i < myValues.size(); i++)
-    {
-        double variance = (myValues[i] - average) * 2;
-    }
+    sq_sum = inner_product(myValues.begin(), myValues.end(), myValues.begin(), 0.0);
+    stdDev = sqrt(sq_sum / myValues.size() - mean * mean);
+    
+    cout << "\nThe Standard Deviation is: " << stdDev << "\n";
     
 }

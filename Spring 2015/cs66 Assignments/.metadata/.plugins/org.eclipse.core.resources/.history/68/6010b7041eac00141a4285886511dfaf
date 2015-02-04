@@ -1,0 +1,33 @@
+#include <vector>
+#include <iostream>
+#include <numeric>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    vector<double> myValues;
+    double myNums, sum, mean, sq_sum, stdDev;
+    
+    
+    cout << "Please enter values (enter end at end) ==> ";
+    
+    while(cin >> myNums)
+    {
+        myValues.push_back(myNums);
+    }
+    
+    sum = accumulate(myValues.begin(), myValues.end(), 0.0);
+    
+    cout << "\nSum of Numbers Entered is: " << sum << "\n";
+    
+    mean = sum / myValues.size();
+    
+    cout << "\nAverage of values entered is: " << mean << "\n";
+    
+    sq_sum = inner_product(myValues.begin(), myValues.end(), myValues.begin(), 0.0);
+    stdDev = sqrt(sq_sum / myValues.size() - mean * mean);
+    
+    cout << "\nThe Standard Deviation is: " << stdDev << "\n";
+    
+}

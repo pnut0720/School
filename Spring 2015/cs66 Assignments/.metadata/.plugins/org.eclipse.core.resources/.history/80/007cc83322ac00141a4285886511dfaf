@@ -1,7 +1,6 @@
 #include <vector>
 #include <iostream>
 #include <numeric>
-#include <math.h>
 using namespace std;
 
 int main()

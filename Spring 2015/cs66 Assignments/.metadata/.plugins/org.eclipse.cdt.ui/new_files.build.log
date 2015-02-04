@@ -1,0 +1,7 @@
+19:59:10 **** Clean-only build of configuration Debug for project new_files ****
+make clean 
+rm -rf  ./src/calc.o  ./src/calc.d  new_files
+ 
+
+19:59:10 Build Finished (took 64ms)
+

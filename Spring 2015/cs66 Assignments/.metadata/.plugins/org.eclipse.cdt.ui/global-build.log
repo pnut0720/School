@@ -1,0 +1,189 @@
+19:20:06 **** Build of configuration Debug for project test ****
+make all 
+Building file: ../src/test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test.d" -MT"src/test.d" -o "src/test.o" "../src/test.cpp"
+Finished building: ../src/test.cpp
+ 
+Building target: test
+Invoking: GCC C++ Linker
+g++  -o "test"  ./src/test.o   
+Finished building target: test
+ 
+19:25:03 **** Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/new_files.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/new_files.d" -MT"src/new_files.d" -o "src/new_files.o" "../src/new_files.cpp"
+Finished building: ../src/new_files.cpp
+ 
+Building target: new_files
+Invoking: MacOS X C++ Linker
+g++  -o "new_files"  ./src/new_files.o   
+Finished building target: new_files
+ 
+19:25:08 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+make: Nothing to be done for `all'.
+19:25:51 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+make: Nothing to be done for `all'.
+19:25:57 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/new_files.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/new_files.d" -MT"src/new_files.d" -o "src/new_files.o" "../src/new_files.cpp"
+Finished building: ../src/new_files.cpp
+ 
+Building target: new_files
+Invoking: MacOS X C++ Linker
+g++  -o "new_files"  ./src/new_files.o   
+Finished building target: new_files
+ 
+19:27:14 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+Finished building: ../src/calc.cpp
+ 
+Building target: new_files
+Invoking: MacOS X C++ Linker
+g++  -o "new_files"  ./src/calc.o ./src/new_files.o   
+duplicate symbol _main in:
+    ./src/calc.o
+    ./src/new_files.o
+ld: 1 duplicate symbol for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [new_files] Error 1
+19:27:29 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building target: new_files
+Invoking: MacOS X C++ Linker
+g++  -o "new_files"  ./src/calc.o   
+Finished building target: new_files
+ 
+19:27:32 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+make: Nothing to be done for `all'.
+19:29:19 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+make: Nothing to be done for `all'.
+19:29:25 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+Finished building: ../src/calc.cpp
+ 
+Building target: new_files
+Invoking: MacOS X C++ Linker
+g++  -o "new_files"  ./src/calc.o   
+Finished building target: new_files
+ 
+19:50:18 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+make: Nothing to be done for `all'.
+19:50:32 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+../src/calc.cpp:10:31: warning: unused variable 'sq_sum' [-Wunused-variable]
+    double myNums, sum, mean, sq_sum, stdDev, E;
+                              ^
+../src/calc.cpp:31:6: warning: variable 'E' is uninitialized when used here [-Wuninitialized]
+        E += pow(static_cast<double>(myValues[i]) - mean, 2);
+        ^
+../src/calc.cpp:10:48: note: initialize the variable 'E' to silence this warning
+    double myNums, sum, mean, sq_sum, stdDev, E;
+                                               ^
+                                                = 0.0
+2 warnings generated.
+Finished building: ../src/calc.cpp
+ 
+Building target: new_files
+Invoking: MacOS X C++ Linker
+g++  -o "new_files"  ./src/calc.o   
+Finished building target: new_files
+ 
+19:51:43 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+make: Nothing to be done for `all'.
+19:51:56 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+../src/calc.cpp:10:31: warning: unused variable 'sq_sum' [-Wunused-variable]
+    double myNums, sum, mean, sq_sum, stdDev;
+                              ^
+1 warning generated.
+Finished building: ../src/calc.cpp
+ 
+Building target: new_files
+Invoking: MacOS X C++ Linker
+g++  -o "new_files"  ./src/calc.o   
+Finished building target: new_files
+ 
+19:52:31 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+make: Nothing to be done for `all'.
+19:52:39 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+Finished building: ../src/calc.cpp
+ 
+Building target: new_files
+Invoking: MacOS X C++ Linker
+g++  -o "new_files"  ./src/calc.o   
+Finished building target: new_files
+ 
+19:57:55 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+make: Nothing to be done for `all'.
+19:58:00 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+../src/calc.cpp:35:11: error: use of undeclared identifier 'pow'
+        E += pow(static_cast<double>(myValues[i]) - mean, 2);
+             ^
+../src/calc.cpp:38:14: error: use of undeclared identifier 'sqrt'
+    stdDev = sqrt(inverse * E);
+             ^
+2 errors generated.
+make: *** [src/calc.o] Error 1
+19:58:27 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+../src/calc.cpp:35:11: error: use of undeclared identifier 'pow'
+        E += pow(static_cast<double>(myValues[i]) - mean, 2);
+             ^
+../src/calc.cpp:38:14: error: use of undeclared identifier 'sqrt'
+    stdDev = sqrt(inverse * E);
+             ^
+2 errors generated.
+make: *** [src/calc.o] Error 1
+19:58:53 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+../src/calc.cpp:35:11: error: use of undeclared identifier 'pow'
+        E += pow(static_cast<double>(myValues[i]) - mean, 2);
+             ^
+../src/calc.cpp:38:14: error: use of undeclared identifier 'sqrt'
+    stdDev = sqrt(inverse * E);
+             ^
+2 errors generated.
+make: *** [src/calc.o] Error 1
+19:59:10 **** Clean-only build of configuration Debug for project new_files ****
+make clean 
+rm -rf  ./src/calc.o  ./src/calc.d  new_files
+ 

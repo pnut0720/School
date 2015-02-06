@@ -187,3 +187,328 @@ make: *** [src/calc.o] Error 1
 make clean 
 rm -rf  ./src/calc.o  ./src/calc.d  new_files
  
+12:40:31 **** Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+Finished building: ../src/calc.cpp
+ 
+Building target: new_files
+Invoking: MacOS X C++ Linker
+g++  -o "new_files"  ./src/calc.o   
+Finished building target: new_files
+ 
+12:40:38 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+Finished building: ../src/calc.cpp
+ 
+Building target: new_files
+Invoking: MacOS X C++ Linker
+g++  -o "new_files"  ./src/calc.o   
+Finished building target: new_files
+ 
+12:41:55 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+Finished building: ../src/calc.cpp
+ 
+Building target: new_files
+Invoking: MacOS X C++ Linker
+g++  -o "new_files"  ./src/calc.o   
+Finished building target: new_files
+ 
+12:41:59 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+make: Nothing to be done for `all'.
+12:42:28 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+make: Nothing to be done for `all'.
+12:42:34 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+Finished building: ../src/calc.cpp
+ 
+Building target: new_files
+Invoking: MacOS X C++ Linker
+g++  -o "new_files"  ./src/calc.o   
+Finished building target: new_files
+ 
+12:43:17 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+make: Nothing to be done for `all'.
+12:43:21 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+Finished building: ../src/calc.cpp
+ 
+Building target: new_files
+Invoking: MacOS X C++ Linker
+g++  -o "new_files"  ./src/calc.o   
+Finished building target: new_files
+ 
+12:57:31 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+make: Nothing to be done for `all'.
+12:57:38 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+../src/calc.cpp:11:39: warning: unused variable 'E' [-Wunused-variable]
+    double myNums, sum, mean, stdDev, E = 0;
+                                      ^
+1 warning generated.
+Finished building: ../src/calc.cpp
+ 
+Building target: new_files
+Invoking: MacOS X C++ Linker
+g++  -o "new_files"  ./src/calc.o   
+Finished building target: new_files
+ 
+12:59:46 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+make: Nothing to be done for `all'.
+12:59:57 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+../src/calc.cpp:39:6: warning: variable 'var' is uninitialized when used here [-Wuninitialized]
+        var += temp2;
+        ^~~
+../src/calc.cpp:13:29: note: initialize the variable 'var' to silence this warning
+    double temp1, temp2, var;
+                            ^
+                             = 0.0
+1 warning generated.
+Finished building: ../src/calc.cpp
+ 
+Building target: new_files
+Invoking: MacOS X C++ Linker
+g++  -o "new_files"  ./src/calc.o   
+Finished building target: new_files
+ 
+13:01:08 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+make: Nothing to be done for `all'.
+13:40:30 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+make: Nothing to be done for `all'.
+13:40:37 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+Finished building: ../src/calc.cpp
+ 
+Building target: new_files
+Invoking: MacOS X C++ Linker
+g++  -o "new_files"  ./src/calc.o   
+Finished building target: new_files
+ 
+13:42:31 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+make: Nothing to be done for `all'.
+13:42:36 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+../src/calc.cpp:27:6: warning: variable 'sum' is uninitialized when used here [-Wuninitialized]
+        sum += myValues[i];
+        ^~~
+../src/calc.cpp:11:23: note: initialize the variable 'sum' to silence this warning
+    double myNums, sum, mean, stdDev;
+                      ^
+                       = 0.0
+1 warning generated.
+Finished building: ../src/calc.cpp
+ 
+Building target: new_files
+Invoking: MacOS X C++ Linker
+g++  -o "new_files"  ./src/calc.o   
+Finished building target: new_files
+ 
+13:43:05 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+make: Nothing to be done for `all'.
+13:56:04 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+make: Nothing to be done for `all'.
+13:56:09 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+Finished building: ../src/calc.cpp
+ 
+Building target: new_files
+Invoking: MacOS X C++ Linker
+g++  -o "new_files"  ./src/calc.o   
+Finished building target: new_files
+ 
+14:00:57 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+make: Nothing to be done for `all'.
+14:01:01 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+../src/calc.cpp:13:12: warning: unused variable 'temp' [-Wunused-variable]
+    double temp, temp2, var = 0;
+           ^
+../src/calc.cpp:13:25: warning: unused variable 'var' [-Wunused-variable]
+    double temp, temp2, var = 0;
+                        ^
+../src/calc.cpp:11:35: warning: unused variable 'stdDev' [-Wunused-variable]
+    double myNums, sum = 0, mean, stdDev;
+                                  ^
+../src/calc.cpp:13:18: warning: unused variable 'temp2' [-Wunused-variable]
+    double temp, temp2, var = 0;
+                 ^
+4 warnings generated.
+Finished building: ../src/calc.cpp
+ 
+Building target: new_files
+Invoking: MacOS X C++ Linker
+g++  -o "new_files"  ./src/calc.o   
+Finished building target: new_files
+ 
+14:04:24 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+make: Nothing to be done for `all'.
+14:04:30 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+../src/calc.cpp:37:12: error: redefinition of 'sum'
+    double sum = accumulate(begin(myValues), std::end(myValues), 0.0);
+           ^
+../src/calc.cpp:11:20: note: previous definition is here
+    double myNums, sum = 0, mean, stdDev;
+                   ^
+../src/calc.cpp:41:47: error: expected expression
+    for_each (begin(myValues), end(myValues), [&](const double d) {
+                                              ^
+2 errors generated.
+make: *** [src/calc.o] Error 1
+14:05:04 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+../src/calc.cpp:37:12: error: redefinition of 'sum'
+    double sum = accumulate(begin(myValues), std::end(myValues), 0.0);
+           ^
+../src/calc.cpp:11:20: note: previous definition is here
+    double myNums, sum = 0, mean, stdDev;
+                   ^
+../src/calc.cpp:41:47: error: expected expression
+    for_each (begin(myValues), end(myValues), [&](const double d) {
+                                              ^
+2 errors generated.
+make: *** [src/calc.o] Error 1
+14:05:50 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+../src/calc.cpp:37:12: error: redefinition of 'sum'
+    double sum = accumulate(begin(myValues), std::end(myValues), 0.0);
+           ^
+../src/calc.cpp:11:20: note: previous definition is here
+    double myNums, sum = 0, mean, stdDev;
+                   ^
+../src/calc.cpp:41:47: error: expected expression
+    for_each (begin(myValues), end(myValues), [&](const double d) {
+                                              ^
+2 errors generated.
+make: *** [src/calc.o] Error 1
+14:06:18 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+../src/calc.cpp:37:12: error: redefinition of 'sum'
+    double sum = accumulate(begin(myValues), std::end(myValues), 0.0);
+           ^
+../src/calc.cpp:11:20: note: previous definition is here
+    double myNums, sum = 0, mean, stdDev;
+                   ^
+../src/calc.cpp:41:47: error: expected expression
+    for_each (begin(myValues), end(myValues), [&](const double d) {
+                                              ^
+2 errors generated.
+make: *** [src/calc.o] Error 1
+14:13:13 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+../src/calc.cpp:37:12: error: redefinition of 'sum'
+    double sum = accumulate(begin(myValues), std::end(myValues), 0.0);
+           ^
+../src/calc.cpp:11:20: note: previous definition is here
+    double myNums, sum = 0, mean, stdDev;
+                   ^
+../src/calc.cpp:41:47: error: expected expression
+    for_each (begin(myValues), end(myValues), [&](const double d) {
+                                              ^
+2 errors generated.
+make: *** [src/calc.o] Error 1
+09:28:32 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+../src/calc.cpp: In function ‘int main()’:
+../src/calc.cpp:30:39: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < myValues.size(); i++)
+                                       ^
+../src/calc.cpp:38:39: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < myValues.size(); i++)
+                                       ^
+../src/calc.cpp:51:38: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for(int i = 0; i < myValues.size(); i++)
+                                      ^
+../src/calc.cpp:56:26: error: invalid operands of types ‘<unresolved overloaded function type>’ and ‘int’ to binary ‘operator-’
+     return temp / (max - 1);
+                          ^
+../src/calc.cpp:58:48: error: ‘stdev’ was not declared in this scope
+     cout << "\nSample Standard Deviation: " << stdev << "\n";
+                                                ^
+make: *** [src/calc.o] Error 1
+09:29:06 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+../src/calc.cpp: In function ‘int main()’:
+../src/calc.cpp:30:39: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < myValues.size(); i++)
+                                       ^
+../src/calc.cpp:38:39: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < myValues.size(); i++)
+                                       ^
+../src/calc.cpp:11:29: warning: variable ‘mean’ set but not used [-Wunused-but-set-variable]
+     double myNums, sum = 0, mean;
+                             ^
+Finished building: ../src/calc.cpp
+ 
+Building target: new_files
+Invoking: MacOS X C++ Linker
+g++  -o "new_files"  ./src/calc.o   
+Finished building target: new_files
+ 

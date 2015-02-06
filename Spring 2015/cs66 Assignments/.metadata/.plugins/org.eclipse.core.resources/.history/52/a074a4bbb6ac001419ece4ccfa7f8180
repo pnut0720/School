@@ -1,0 +1,44 @@
+#include <vector>
+#include <iostream>
+#include <numeric>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+	// Initialize Variables
+    vector<double> myValues;
+    double myNums, sum, mean, stdDev;
+    int number = 0;
+    double temp1, temp2, var = 0;
+
+    cout << "Please enter how many numbers you want to enter: ";
+    cin >> number;
+
+    for (int i = 0; i < number; i++)
+    {
+    	cout << "Please enter value number " << i + 1 << ": ";
+    	cin >> myNums;
+    	myValues.push_back(myNums);
+    }
+
+    // Calculate the sum of the values
+    sum = accumulate(myValues.begin(), myValues.end(), 0.0);
+    
+    cout << "\nSum of Numbers Entered is: " << sum << "\n";
+    
+    // Calculate the average/mean of the values
+    mean = sum / myValues.size();
+    
+    cout << "\nAverage of values entered is: " << mean << "\n";
+    
+    for (int i = 0; i < myValues.size(); i++)
+    {
+    	temp1 = myValues[i] - mean;
+    	temp2 = pow(temp1, 2.0);
+    	var += temp2;
+    }
+    stdDev = sqrt(var);
+    
+    cout << "stdDev: " << stdDev << "\n";
+}

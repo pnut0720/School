@@ -8,35 +8,53 @@ int main()
 {
 	// Initialize Variables
     vector<double> myValues;
-    double myNums, sum, mean, stdDev, E = 0;
+    double myNums, sum = 0, mean;
+    int number = 0;
+
+    // Prompt user for how many values they want to enter
+    cout << "Please enter how many numbers you want to enter: ";
+    cin >> number;
     
-    // Ask user to enter values
-    cout << "Please enter values (enter end at end) ==> ";
-    // Enter Values into the vector
-    while(cin >> myNums)
+    cout << "\n";
+
+    // Go through it the number of times and prompt user for values
+    for (int i = 0; i < number; i++)
     {
-        myValues.push_back(myNums);
+    	cout << "Please enter value number " << i + 1 << ": ";
+    	cin >> myNums;
+        // Push values to the vector
+    	myValues.push_back(myNums);
     }
     
     // Calculate the sum of the values
-    sum = accumulate(myValues.begin(), myValues.end(), 0.0);
+    for (int i = 0; i < myValues.size(); i++)
+    {
+    	sum += myValues[i];
+    }
     
+    // Output the values the user entered to validate that they are correct
+    cout << "\nValues You Entered: ";
+    
+    for (int i = 0; i < myValues.size(); i++)
+    {
+        cout << myValues[i] << " ";
+    }
+    cout << "\n";
+
     cout << "\nSum of Numbers Entered is: " << sum << "\n";
     
     // Calculate the average/mean of the values
     mean = sum / myValues.size();
     
-    cout << "\nAverage of values entered is: " << mean << "\n";
+    double temp = 0.0, temp1 = 0.0, stdev = 0.0;
     
-    // Calculate the Standard Deviation of the values
-    double inverse = 1.0 / static_cast<double>(myValues.size());
-
-    for(unsigned int i=0; i<myValues.size(); i++)
+    for (int i = 0; i < myValues.size(); i++)
     {
-    	E += pow(static_cast<double>(myValues[i]) - mean, 2);
+        temp += (myValues[i] - mean) * (myValues[i] - mean);
     }
-
-    stdDev = sqrt(inverse * E);
+    temp1 = temp / (myValues.size() - 1);
     
-    cout << "\nStandard Deviation: " << stdDev << "\n";
+    stdev = sqrt(temp1);
+    
+    cout << "\nSample Standard Deviation: " << stdev << "\n";
 }

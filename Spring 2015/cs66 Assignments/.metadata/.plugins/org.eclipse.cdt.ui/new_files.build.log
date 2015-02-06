@@ -1,7 +1,25 @@
-19:59:10 **** Clean-only build of configuration Debug for project new_files ****
-make clean 
-rm -rf  ./src/calc.o  ./src/calc.d  new_files
+09:29:06 **** Incremental Build of configuration Debug for project new_files ****
+make all 
+Building file: ../src/calc.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/calc.d" -MT"src/calc.d" -o "src/calc.o" "../src/calc.cpp"
+../src/calc.cpp: In function ‘int main()’:
+../src/calc.cpp:30:39: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < myValues.size(); i++)
+                                       ^
+../src/calc.cpp:38:39: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+     for (int i = 0; i < myValues.size(); i++)
+                                       ^
+../src/calc.cpp:11:29: warning: variable ‘mean’ set but not used [-Wunused-but-set-variable]
+     double myNums, sum = 0, mean;
+                             ^
+Finished building: ../src/calc.cpp
+ 
+Building target: new_files
+Invoking: MacOS X C++ Linker
+g++  -o "new_files"  ./src/calc.o   
+Finished building target: new_files
  
 
-19:59:10 Build Finished (took 64ms)
+09:29:06 Build Finished (took 536ms)
 
